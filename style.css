@@ -5,6 +5,7 @@ body {
 
 @-ms-viewport{
     width:device-width;
+    height:device-height;
 }
 
 #header {
@@ -47,7 +48,7 @@ nav {
 div a {
     display: block;
     color: white;
-    /*text-align: center;*/
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
