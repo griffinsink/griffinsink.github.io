@@ -1,9 +1,16 @@
 body{
     background-color:whitesmoke;
+    box-sizing:border-box;
 }
 
 @-ms-viewport{
     width:device-width;
+}
+
+#header {
+    padding: 10px;
+    text-align: center;
+    position: center;
 }
 
 nav {
@@ -12,16 +19,34 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
 }
 
-div{
+#HomeNav{
     float: left;
+
+}
+#AboutNav{
+    float: left;
+
+}
+#ProjectsNav{
+    float: left;
+
+}
+#SkillsNav{
+    float:left;
+
+}
+#EmpNav{
+    float: left;
+
 }
 
 div a {
     display: block;
     color: white;
-    text-align: center;
+    /*text-align: center;*/
     padding: 14px 16px;
     text-decoration: none;
 }
