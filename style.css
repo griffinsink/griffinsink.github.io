@@ -59,13 +59,12 @@ div a {
     padding: 14px 16px;
     text-decoration: none;
 }
+#linkedin{
+    color:black;
+}
 div a:hover {
     background-color: #111;
     text-decoration: none;
     padding: 14px 16px;
     color:none;
-}
-
-.card mb-3 card-body{
-    position: center;
 }
