@@ -25,9 +25,9 @@ nav {
 #cardBack {
     padding: 25px;
     background-repeat: no-repeat;
+    object-fit:fill;
     height: 100%;
-    background: url(https://cdn.shopify.com/s/files/1/2118/5289/products/EnvyLoops_Interconnected_V2_-_Glow-4K0_3840x.jpg?v=1527308804);
-    /*background-image: url(https://cdn.shopify.com/s/files/1/2118/5289/products/EnvyLoops_Interconnected_V2_-_Glow-4K0_3840x.jpg);*/
+    background-image: url(https://cdn.shopify.com/s/files/1/2118/5289/products/EnvyLoops_Interconnected_V2_-_Glow-4K0_3840x.jpg?v=1527308804);
     
 }
 .card {
@@ -37,23 +37,23 @@ nav {
 
 
 #ProjectsNav {
-    float: right;
+    /*float: right;*/
 
 }
 #EmpNav {
-    float: right;
+    /*float: right;*/
 
 }
 #SkillsNav {
-    float: right;
+    /*float: right;*/
 
 }
 #AboutNav {
-    float: right;
+    /*float: right;*/
 
 }
 #HomeNav {
-    float: right;
+    /*float: right;*/
 
 }
 
@@ -65,9 +65,7 @@ div a {
     text-decoration: none;
     /*color:none;*/
 }
-#linkedin{
-    color:black;
-}
+
 div a:hover {
     background-color: #111;
     text-decoration: none;
@@ -75,11 +73,17 @@ div a:hover {
     color:none;
 }
 
-#into {
+#info {
     background-position: center;
     position:center;
     background-position: center;
     background-color: white;
     height: 300px;
     width: 25%;
+}
+
+.alert-light {
+    width: auto;
+    margin: auto;
+    text-align:center;
 }
