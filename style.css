@@ -14,21 +14,15 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    /*background-color: #333;*/
     text-decoration: none;
 }
 #card mb-3 {
     position: center;
+    background-position: center;
 }
 
-#header {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+
 
 
 #ProjectsNav {
@@ -53,11 +47,12 @@ nav {
 }
 
 div a {
-    display: block;
-    color: white;
+    /*display: block;
+    color: white;*/
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    /*color:none;*/
 }
 #linkedin{
     color:black;
@@ -67,4 +62,13 @@ div a:hover {
     text-decoration: none;
     padding: 14px 16px;
     color:none;
+}
+
+#into {
+    background-position: center;
+    position:center;
+    background-position: center;
+    background-color: white;
+    height: 300px;
+    width: 25%;
 }
