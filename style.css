@@ -15,7 +15,7 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-
+    text-decoration: none;
 }
 #card mb-3 {
     position: center;
@@ -29,23 +29,25 @@ nav {
     padding: 14px 16px;
     text-decoration: none;
 }
-#ProjectsNav{
+
+
+#ProjectsNav {
     float: right;
 
 }
-#EmpNav{
+#EmpNav {
     float: right;
 
 }
-#SkillsNav{
-    float:right;
-
-}
-#AboutNav{
+#SkillsNav {
     float: right;
 
 }
-#HomeNav{
+#AboutNav {
+    float: right;
+
+}
+#HomeNav {
     float: right;
 
 }
@@ -58,5 +60,12 @@ div a {
     text-decoration: none;
 }
 div a:hover {
-    background-color:#111;
+    background-color: #111;
+    text-decoration: none;
+    padding: 14px 16px;
+    color:none;
+}
+
+.card mb-3 card-body{
+    position: center;
 }
