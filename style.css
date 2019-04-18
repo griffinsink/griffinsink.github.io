@@ -22,7 +22,18 @@ nav {
     background-position: center;
 }
 
-
+#cardBack {
+    padding: 25px;
+    background-repeat: no-repeat;
+    height: 100%;
+    background: url(https://cdn.shopify.com/s/files/1/2118/5289/products/EnvyLoops_Interconnected_V2_-_Glow-4K0_3840x.jpg?v=1527308804);
+    /*background-image: url(https://cdn.shopify.com/s/files/1/2118/5289/products/EnvyLoops_Interconnected_V2_-_Glow-4K0_3840x.jpg);*/
+    
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 #ProjectsNav {
