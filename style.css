@@ -60,16 +60,16 @@ div a {
     /*display: block;
     color: white;*/
     text-align: center;
-    padding: 14px 16px;
+
     text-decoration: none;
     /*color:none;*/
 }
 
 div a:hover {
-    background-color: #111;
+    background-color: none;
     text-decoration: none;
     padding: 14px 16px;
-    color:none;
+    color:steelblue;
 }
 
 #info {
@@ -86,3 +86,6 @@ div a:hover {
     margin: auto;
     text-align:center;
 }
+ a{
+     color: black;
+ }
