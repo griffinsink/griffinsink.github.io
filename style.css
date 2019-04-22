@@ -89,3 +89,21 @@ div a:hover {
  a{
      color: black;
  }
+
+.blueC {
+    margin-right: auto;
+    margin-left:inherit;
+}
+.greyC {
+    margin-left: auto;
+    margin-right: initial;
+
+}
+.yellowC {
+    margin-left: auto;
+    margin-right: auto;
+}
+.whiteC {
+    margin-right: auto;
+    margin-left: inherit;
+}
